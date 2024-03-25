@@ -13,10 +13,10 @@
 ## Task 1
 List all kubernetes nodes using `kubectl get nodes` command and paste the output below
 	    
-```
+
 <img width="398" alt="Screenshot 2024-03-25 at 12 36 31 PM" src="https://github.com/amilmshaji/k8s-basics-hackathon/assets/95700607/2bc2e562-ef24-4d06-ad16-84e38356fb1a">
 
-```
+
 
 ## Task 2
 describe one kubernetes node using `kubectl describe node/<node-name>` command and paste the section from the terminal output below
