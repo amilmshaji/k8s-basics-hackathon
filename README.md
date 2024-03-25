@@ -22,33 +22,32 @@ List all kubernetes nodes using `kubectl get nodes` command and paste the output
 describe one kubernetes node using `kubectl describe node/<node-name>` command and paste the section from the terminal output below
 
 **Number of cpu**:     
-```
+
 <img width="384" alt="Screenshot 2024-03-25 at 12 43 20 PM" src="https://github.com/amilmshaji/k8s-basics-hackathon/assets/95700607/e416ca92-3de2-40a4-b9a8-6ee5971f36fe">
 
-```
+
 **Hostname**: 
-```
+
 <img width="282" alt="Screenshot 2024-03-25 at 12 46 10 PM" src="https://github.com/amilmshaji/k8s-basics-hackathon/assets/95700607/9b8999cc-3a94-4c16-96d0-908f4412d9f0">
 
-```
 **Cpu and Memory usage**:
-```
+
 <img width="496" alt="Screenshot 2024-03-25 at 12 49 11 PM" src="https://github.com/amilmshaji/k8s-basics-hackathon/assets/95700607/cfc190d8-2899-4db4-b03f-e30bde26f803">
 
-```
+
 
 ## Task 3
 List all kubernetes namespaces using `kubectl get namespace` command and paste the output below
 	    
-```
+
 <img width="296" alt="Screenshot 2024-03-25 at 12 50 22 PM" src="https://github.com/amilmshaji/k8s-basics-hackathon/assets/95700607/17d5906d-1e8e-4e35-986f-8cbb86107d66">
-```
+
 
 ## Task 4
 List all the pods in '*kube-system*' namespace using `kubectl get pods -n <namespce command>`
 	    
 ```
-<Paste output below>
+<img width="528" alt="Screenshot 2024-03-25 at 12 53 10 PM" src="https://github.com/amilmshaji/k8s-basics-hackathon/assets/95700607/e2ed01f4-2f3f-42e2-8b70-e391e8498afa">
 
 ```
 
@@ -59,7 +58,12 @@ Create a namespace with name `my-namespace` using `kubectl create <namespace nam
 
 List all namespaces like  in **Task 3**  and paste output below
 ```
-<Paste output below>
+➜  ~ kubectl get namespace
+NAME              STATUS   AGE
+default           Active   3d1h
+kube-node-lease   Active   3d1h
+kube-public       Active   3d1h
+kube-system       Active   3d1h
 
 ```
 ## Task 6
