@@ -14,7 +14,7 @@
 List all kubernetes nodes using `kubectl get nodes` command and paste the output below
 	    
 ```
-<Paste output below>
+<img width="398" alt="Screenshot 2024-03-25 at 12 36 31 PM" src="https://github.com/amilmshaji/k8s-basics-hackathon/assets/95700607/2bc2e562-ef24-4d06-ad16-84e38356fb1a">
 
 ```
 
@@ -23,23 +23,25 @@ describe one kubernetes node using `kubectl describe node/<node-name>` command a
 
 **Number of cpu**:     
 ```
-<Paste section here>
+<img width="384" alt="Screenshot 2024-03-25 at 12 43 20 PM" src="https://github.com/amilmshaji/k8s-basics-hackathon/assets/95700607/e416ca92-3de2-40a4-b9a8-6ee5971f36fe">
+
 ```
 **Hostname**: 
 ```
-<Paste section here>
+<img width="282" alt="Screenshot 2024-03-25 at 12 46 10 PM" src="https://github.com/amilmshaji/k8s-basics-hackathon/assets/95700607/9b8999cc-3a94-4c16-96d0-908f4412d9f0">
+
 ```
 **Cpu and Memory usage**:
 ```
-<Paste section here>
+<img width="496" alt="Screenshot 2024-03-25 at 12 49 11 PM" src="https://github.com/amilmshaji/k8s-basics-hackathon/assets/95700607/cfc190d8-2899-4db4-b03f-e30bde26f803">
+
 ```
 
 ## Task 3
 List all kubernetes namespaces using `kubectl get namespace` command and paste the output below
 	    
 ```
-<Paste output below>
-
+<img width="296" alt="Screenshot 2024-03-25 at 12 50 22 PM" src="https://github.com/amilmshaji/k8s-basics-hackathon/assets/95700607/17d5906d-1e8e-4e35-986f-8cbb86107d66">
 ```
 
 ## Task 4
